@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+ #p2{
+  display: none;
+ }
+</style>
+
+
+</head>
+<body>
+
+
+<button id="b1">Hide</button>
+
+<p id="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium laboriosam eveniet, vel ullam cumque quia neque harum, iusto est fugit iste doloribus suscipit! Pariatur error nisi corrupti quidem nihil nam. Veritatis et cumque rem placeat quis, dicta voluptatum qui numquam distinctio id nulla, alias corrupti sequi labore optio repellendus fugiat! Deserunt quasi illo porro similique explicabo, vel modi hic. </p>
+
+
+<button id="b2">Show</button>
+
+<p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium laboriosam eveniet, vel ullam cumque quia neque harum, iusto est fugit iste doloribus suscipit! Pariatur error nisi corrupti quidem nihil nam. Veritatis et cumque rem placeat quis, dicta voluptatum qui numquam distinctio id nulla, alias corrupti sequi labore optio repellendus fugiat! Deserunt quasi illo porro similique explicabo, vel modi hic. </p>
+
+<br>
+<br>
+
+
+<button id="b3">Toggle</button>
+
+<p id="p3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium laboriosam eveniet, vel ullam cumque quia neque harum, iusto est fugit iste doloribus suscipit! Pariatur error nisi corrupti quidem nihil nam. Veritatis et cumque rem placeat quis, dicta voluptatum qui numquam distinctio id nulla, alias corrupti sequi labore optio repellendus fugiat! Deserunt quasi illo porro similique explicabo, vel modi hic. </p>
+
+
+<script src="jquery/jquery.js"></script>
+
+
+<script>
+
+//hide()
+
+$("#b1").click(function(){
+ $("#p1").hide();
+})
+
+
+// show()
+
+
+$("#b2").click(function(){
+
+ $("#p2").show();
+
+})
+
+
+//toggle()
+
+$("#b3").click(function(){
+
+ $("#p3").toggle();
+
+})
+
+</script>
+</body>
+</html>
